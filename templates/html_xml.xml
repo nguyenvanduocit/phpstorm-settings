@@ -1,0 +1,8 @@
+<templateSet group="html/xml">
+  <template name="php" value="&lt;?php ?&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,14 +1,11 @@
 <templateSet group="WordPress">
-  <template name="__" value="__( '$SELECTION$', '$textdomain$' );" description="__" toReformat="false" toShortenFQNames="true">
-    <variable name="textdomain" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="wp_ic" value="$time = current_time('mysql');&#10;&#10;$data = array(&#10;    'comment_post_ID' =&gt; $POST_ID,&#10;    'comment_content' =&gt; '$COMMENT_CONTENT',&#10;    'user_id' =&gt; $USER_ID,&#10;    'comment_date' =&gt; $time,&#10;    'comment_approved' =&gt; 1,&#10;);&#10;&#10;wp_insert_comment($data);" description="wp_insert_comment" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="__html" value="&lt;?php echo esc_html(__( '$SELECTION$', '$textdomain$' )); ?&gt;" description="__" toReformat="false" toShortenFQNames="true">
-    <variable name="textdomain" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="wp_gp" value="$args = array(&#10;&#9;'posts_per_page'   =&gt; 5,&#10;&#9;'offset'           =&gt; 0,&#10;&#9;'category'         =&gt; '',&#10;&#9;'category_name'    =&gt; '',&#10;&#9;'orderby'          =&gt; 'date',&#10;&#9;'order'            =&gt; 'DESC',&#10;&#9;'include'          =&gt; '',&#10;&#9;'exclude'          =&gt; '',&#10;&#9;'meta_key'         =&gt; '',&#10;&#9;'meta_value'       =&gt; '',&#10;&#9;'post_type'        =&gt; 'post',&#10;&#9;'post_mime_type'   =&gt; '',&#10;&#9;'post_parent'      =&gt; '',&#10;&#9;'author'&#9;   =&gt; '',&#10;&#9;'author_name'&#9;   =&gt; '',&#10;&#9;'post_status'      =&gt; 'publish',&#10;&#9;'suppress_filters' =&gt; true &#10;);&#10;$posts_array = get_posts( $args );" description="get_posts" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HTML" value="true" />
       <option name="PHP" value="true" />
     </context>
   </template>

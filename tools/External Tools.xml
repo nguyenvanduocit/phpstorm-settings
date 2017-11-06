@@ -1,0 +1,23 @@
+<toolSet name="External Tools">
+  <tool name="php-cs-fixer" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="php-cs-fixer" />
+      <option name="PARAMETERS" value="fix &quot;$FileDir$/$FileName$&quot; -v" />
+      <option name="WORKING_DIRECTORY" value="/usr/local/bin" />
+    </exec>
+  </tool>
+  <tool name="upload view" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="scp" />
+      <option name="PARAMETERS" value=" -rp $ProjectFileDir$/dist/* root@128.199.125.122:/home/nginx/domains/app.kinhphapcu.com/public/view/" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="Upload Sap In" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="scp" />
+      <option name="PARAMETERS" value=" -rp built constructdigital.net@constructdigital.net:~/domains/innovationagenda.constructdigital.net/public_html/wp-content/themes/sap-in" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
