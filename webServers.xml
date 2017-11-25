@@ -1,0 +1,38 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5733ef9d-676a-42a8-b4bd-4e498a7db2a8" name="nhakhoanova.com" url="http://nhakhoanova.com">
+        <fileTransfer host="nhakhoanova.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a99b406c-7e89-4f34-8254-b21a720d7855" name="nemeanthemes.com" url="http://188.166.220.93">
+        <fileTransfer host="188.166.220.93" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="5474a3bf-eb8a-4e33-8c6f-273bf19069c9" name="nvduoc.senviet.org" url="http://senviet.org">
+        <fileTransfer host="senviet.org" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="bafe55c9-b053-4427-9f94-03ebf7214129" name="kinhdoanhspa.com" url="http://kinhdoanhspa.com">
+        <fileTransfer host="kinhdoanhspa.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

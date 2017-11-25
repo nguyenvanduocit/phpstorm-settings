@@ -1,21 +1,163 @@
 <application>
   <component name="ProjectManager">
     <defaultProject>
+      <component name="CopyrightManager">
+        <copyright>
+          <option name="myName" value="ConstructDigital" />
+        </copyright>
+      </component>
+      <component name="Encoding">
+        <file url="PROJECT" charset="UTF-8" />
+      </component>
+      <component name="FileColors">
+        <fileColor scope="Non-Project Files (Material Default)" color="415967" />
+        <fileColor scope="Non-Project Files (Material Darker)" color="474747" />
+        <fileColor scope="Non-Project Files (Material Lighter)" color="D2D4D5" />
+        <fileColor scope="Non-Project Files (Material Palenight)" color="4E5579" />
+        <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+        <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+        <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+        <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+      </component>
       <component name="InspectionProjectProfileManager">
         <profile version="1.0">
           <option name="myName" value="Project Default" />
           <inspection_tool class="Eslint" enabled="true" level="ERROR" enabled_by_default="true" />
+          <inspection_tool class="MessDetectorValidationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+            <option name="CODESIZE" value="true" />
+            <option name="CONTROVERSIAL" value="true" />
+            <option name="DESIGN" value="true" />
+            <option name="UNUSEDCODE" value="true" />
+            <option name="NAMING" value="true" />
+          </inspection_tool>
+          <inspection_tool class="PhpAssignmentInConditionInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhpCSValidationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhpDivisionByZeroInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhpMissingDocCommentInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhpMultipleClassesDeclarationsInOneFile" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhpStaticAsDynamicMethodCallInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhpTooManyParametersInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhpTraditionalSyntaxArrayLiteralInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PhpVariableVariableInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
         </profile>
         <version value="1.0" />
       </component>
-      <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+      <component name="PhpUnit">
+        <phpunit_settings>
+          <PhpUnitSettings />
+        </phpunit_settings>
+      </component>
+      <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
+      <component name="ProjectDictionaryState">
+        <dictionary name="duoc" />
+      </component>
+      <component name="ProjectInspectionProfilesVisibleTreeState">
+        <entry key="Project Default">
+          <profile-state>
+            <expanded-state>
+              <State>
+                <id />
+              </State>
+              <State>
+                <id>Code StylePHP</id>
+              </State>
+              <State>
+                <id>Code quality toolsJavaScript</id>
+              </State>
+              <State>
+                <id>Control FlowPHP</id>
+              </State>
+              <State>
+                <id>GeneralPHP</id>
+              </State>
+              <State>
+                <id>JavaScript</id>
+              </State>
+              <State>
+                <id>PHP</id>
+              </State>
+              <State>
+                <id>PHPDocPHP</id>
+              </State>
+              <State>
+                <id>Probable bugsPHP</id>
+              </State>
+              <State>
+                <id>Sass/SCSS</id>
+              </State>
+              <State>
+                <id>Spelling</id>
+              </State>
+              <State>
+                <id>Type compatibilityPHP</id>
+              </State>
+              <State>
+                <id>UndefinedPHP</id>
+              </State>
+              <State>
+                <id>UnusedPHP</id>
+              </State>
+              <State>
+                <id>XPath</id>
+              </State>
+            </expanded-state>
+            <selected-state>
+              <State>
+                <id>Internationalization issues</id>
+              </State>
+            </selected-state>
+          </profile-state>
+        </entry>
+      </component>
       <component name="PropertiesComponent">
-        <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+        <property name="settings.editor.selected.configurable" value="copyright.profiles" />
+        <property name="js.eslint.nodeInterpreter" value="/usr/local/bin/node" />
+        <property name="js.eslint.eslintPackage" value="" />
+        <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
         <property name="node.js.path.for.package.eslint" value="project" />
-        <property name="nodejs_interpreter_path" value="E:/nodejs/node" />
+        <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
         <property name="node.js.selected.package.eslint" value="" />
         <property name="node.js.path.for.package.standard" value="project" />
         <property name="node.js.selected.package.standard" value="" />
+        <property name="node.js.path.for.package.jscs" value="project" />
+        <property name="node.js.selected.package.jscs" value="" />
+        <property name="node.js.path.for.package.stylelint" value="project" />
+        <property name="node.js.selected.package.stylelint" value="" />
+        <property name="settings.editor.splitter.proportion" value="0.21763304" />
+      </component>
+      <component name="PublishConfigData" createEmptyFolders="true" />
+      <component name="SvnConfiguration">
+        <configuration>$USER_HOME$/.subversion</configuration>
+      </component>
+      <component name="VcsContentAnnotationSettings">
+        <option name="myLimit" value="2678400000" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="Copyright.UI">
+            <settings>
+              <last-edited>ConstructDigital</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.19675675" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ScopeChooserConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.19860972" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
       </component>
     </defaultProject>
   </component>

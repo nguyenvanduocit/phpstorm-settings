@@ -1,0 +1,8 @@
+<templateSet group="PHP">
+  <template name="_e" value="&lt;?php _e('$END$', 'smithsdetection'); ?&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
