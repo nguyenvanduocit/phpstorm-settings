@@ -2,7 +2,6 @@
   <component name="MaterialThemeConfig">
     <option name="version" value="1.5.2.2" />
     <option name="selectedTheme" value="DARKER" />
-    <option name="isMaterialDesign" value="false" />
     <option name="accentColor" value="00bcd4" />
     <option name="useProjectViewDecorators" value="false" />
     <option name="compactSidebar" value="true" />
