@@ -1,5 +1,6 @@
 <templateSet group="PHP">
-  <template name="_e" value="&lt;?php _e('$END$', 'smithsdetection'); ?&gt;" description="" toReformat="true" toShortenFQNames="true">
+  <template name="ehtml" value="&lt;?php esc_html_e('$PARAMETERS$', '$END$'); ?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
       <option name="PHP" value="true" />
