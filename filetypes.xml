@@ -10,7 +10,9 @@
       <mapping ext="mp4" type="Native" />
       <mapping pattern="gUO4CNsQtg1sqXrgboU1LQEFZY3Yr_9H34a7JF1wznk" type="PLAIN_TEXT" />
       <mapping pattern="style" type="PLAIN_TEXT" />
+      <mapping pattern="opDY3aA4KaS3Vpk8yn9mw_wqa9MxzRc18a2meYMTK_8" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern=".guide" type="PLAIN_TEXT" />
       <mapping pattern=".ignoge" type="PLAIN_TEXT" />
       <mapping pattern=".modman" type="PLAIN_TEXT" />
       <mapping pattern="zc7As1aqKr436h2WuqhO1kL7V4Yqv7HRA7SpZuVyEYM" type="PLAIN_TEXT" />
@@ -27,9 +29,7 @@
       <mapping pattern="Makefile" type="PLAIN_TEXT" />
       <mapping pattern="build" type="PLAIN_TEXT" />
       <mapping pattern="gJgWgvfiz2F4lex2klmJpQyZnfIhZqpDfNQ9CC9Eqbw" type="PLAIN_TEXT" />
-      <mapping pattern=".guide" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern="opDY3aA4KaS3Vpk8yn9mw_wqa9MxzRc18a2meYMTK_8" type="PLAIN_TEXT" />
       <mapping pattern="adduser" type="PLAIN_TEXT" />
       <mapping ext="map" type="PLAIN_TEXT" />
       <mapping ext="manifest" type="PLAIN_TEXT" />
@@ -41,6 +41,7 @@
       <mapping ext="phtmlml" type="PLAIN_TEXT" />
       <mapping ext="tff" type="PLAIN_TEXT" />
       <mapping ext="master" type="PLAIN_TEXT" />
+      <mapping ext="stylus" type="PLAIN_TEXT" />
       <removed_mapping ext="dll" type="UNKNOWN" />
       <mapping pattern="afterRedeemedmjml" type="XML" />
       <mapping ext="gpx" type="XML" />
