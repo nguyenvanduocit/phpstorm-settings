@@ -26,6 +26,7 @@
       <mapping pattern="Makefile" type="PLAIN_TEXT" />
       <mapping pattern="build" type="PLAIN_TEXT" />
       <mapping pattern="gJgWgvfiz2F4lex2klmJpQyZnfIhZqpDfNQ9CC9Eqbw" type="PLAIN_TEXT" />
+      <mapping pattern=".postcssrc" type="PLAIN_TEXT" />
       <mapping pattern=".guide" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="opDY3aA4KaS3Vpk8yn9mw_wqa9MxzRc18a2meYMTK_8" type="PLAIN_TEXT" />
